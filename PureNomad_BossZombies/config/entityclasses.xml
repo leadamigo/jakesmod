@@ -12,14 +12,14 @@
 
 	<!-- Gameplay -->
 	<property name="HandItem" value="meleeHandZombieGiant"/>
-	<property name="MoveSpeedAggro" value=".5, 1.35"/>	
+	<property name="MoveSpeedAggro" value=".5, 1.05"/>	
 	<property name="SightRange" value="150"/>	
 	<property name="SizeScale" value="2"/>	
 	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>	
 	<property name="ExperienceGain" value="10000"/> <!-- XP strong -->
 	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
 	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="6666"/>
+		<passive_effect name="HealthMax" operation="base_set" value="5000"/>
 		<passive_effect name="HealthMax" operation="perc_set" value="1"/> <!-- Zombie HP scale -->
 		<passive_effect name="PhysicalDamageResist" operation="base_set" value="60"/>
 	</effect_group>
